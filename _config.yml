@@ -1,0 +1,19 @@
+plugins:
+  - jekyll-relative-links
+  - jekyll-remote-theme
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - CONTRIBUTING.md
+  - README.md
+  - LICENSE.md
+  - COPYING.md
+  - CODE_OF_CONDUCT.md
+  - ISSUE_TEMPLATE.md
+  - PULL_REQUEST_TEMPLATE.md
+remote_theme: pages-themes/cayman@v0.2.0
+title: IRAS
+description: Overview of projects and publications
+show_downloads: false
+# google_analytics: [Your Google Analytics tracking ID]
